@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+/*Vi har indsat width til 100%, som ikke var der før*/
+{
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav ul li {
+    border-right: 1px solid #bbb;
+    flex: 1;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+
+.active {
+    background-color: red;
+}
+
+.Meat {
+
+    color: black;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: medium;
+    list-style: disc;
+    margin: 0;
+
+}
+
+
+Body{
+    margin: 0;
+    background-image: url("images/baggrundsbillede.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+figure:not(.logo) img {
+    width: 50%;
+
+}
+/*Her har vi lavet om på billede placering*/
+
+
+figure:not(.logo) {
+
+    text-align: center;
+    
+}
+/*Her har vi fået billedet centreret*/
+
+.text{
+    font-size: large;
+}
+
+.telefon{
+    font-weight: bold;
+}
+
+.E-mail{
+    font-weight: bold;
+}
+
+.Support{
+    font-weight: bold;
+}
+
+.alt-text{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+}
+
+.tilmelding{
+    text-align: center;
+    font-size: medium;
+    padding: 20px;
+}
+
+.forside{
+    text-align: center;
+    font-size: medium;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.linje{
+    text-align: center;
+    font-size: medium;
+    padding: 20px;
+}
+
+.billede1{
+    text-align: center;
+}
+
+.karatemand{
+    text-align: center;
+}
+
+.Intro{
+    text-align: center;
+    font-size: medium;
+    padding: 20px;
+}
+
+.nyheder {
+    font-size: medium;
+    text-align: center;
+
+}
+
+.kvinde {
+    align-items: center;
+}
+/*@media and screen (min-width: 768px) {
+
+
+
+
+} */
